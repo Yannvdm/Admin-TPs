@@ -1,0 +1,20 @@
+$ORIGIN m1-8.ephec-ti.be. 
+$TTL 86400 
+@	IN	SOA	dns.m1-8.ephec-ti.be.	hostmaster.m1-8.ephec-ti.be. (
+			2025060301 ; serial                     
+			21600      ; refresh after 6 hours                     
+			3600       ; retry after 1 hour                     
+			604800     ; expire after 1 week                     
+			86400 )    ; minimum TTL of 1 day  
+		     
+		           
+	IN	NS	dns.m1-8.ephec-ti.be.       
+        
+	IN	A	54.36.182.145
+	
+dns	IN	A	54.36.182.145
+
+
+
+www	IN	CNAME	dns
+
